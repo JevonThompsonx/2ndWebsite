@@ -1,0 +1,218 @@
+#cloud-space {
+    height: 110px;
+    ;
+    width: 100%
+}
+
+#top-cloud,
+#bottom-cloud {
+    height: 140px;
+    width: auto;
+}
+
+#cloud-space {
+    height: 80px;
+}
+
+#top-cloud {
+    top: 0%;
+}
+
+#intro {
+    width: 100%;
+    height: 160px;
+    margin-bottom: 0;
+}
+
+#me-pic {
+    height: 85%;
+    left: 5%;
+}
+
+#name {
+    font-size: 4rem;
+    right: 5%;
+}
+
+#web {
+    font-size: 1.2rem;
+    top: 60%;
+}
+
+#mountain-home {
+    margin-top: 0;
+    margin-top: 0;
+    height: 45%;
+    width: 100%;
+
+}
+
+#bottom-cloud {
+    top: -14%;
+    left: -5%;
+}
+
+#mountain {
+    width: 100%;
+    height: auto;
+}
+
+.profile {
+    margin-top: -4%;
+    font-size: 1rem;
+}
+
+#my-skills {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+#skills-section {
+    height: 50vh;
+    width: 100%;
+}
+
+#web-pic {
+    height: 100%;
+    width: auto;
+    top: 0;
+    right: -5%;
+}
+
+#web-header {
+    font-size: 1.5rem;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+#web-desc {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+#pc-pic {
+    height: auto;
+    width: 70%;
+    left: 10%;
+}
+
+#pc-header {
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+
+#pc-desc {
+    font-size: 1rem;
+}
+
+#pc-right {}
+
+#contact-me h2 {
+    font-size: 2rem;
+}
+
+#contact-me {
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+.divider {
+    width: 15%;
+  }
+/**Galaxy S8+**/
+@media (max-width:360px) and (max-height:750px) {
+    #name {
+        font-size: 3.3rem;
+        top: 14%;
+    }
+
+    #pc-desc {
+        font-size: .9rem;
+    }
+}
+
+/**Mobile Medium S8+**/
+@media (max-width:375px) {
+
+    #top-cloud,
+    #bottom-cloud {
+        height: 130px;
+    }
+
+    #name {
+        right: 0%;
+        font-size: 3.5rem;
+    }
+
+    #web {
+        font-size: 1.1rem;
+    }
+
+    #bottom-cloud {
+
+        top: -9%;
+    }
+
+    .profile {
+        margin-top: -6%;
+    }
+
+    #contact-me h2 {
+        font-size: 1.5rem;
+    }
+
+    #contact-me p {
+        font-size: 1rem;
+        margin-left: 5%;
+    }
+}
+
+/**Mobile S**/
+@media (max-width:320px) {
+
+    #top-cloud,
+    #bottom-cloud {
+        height: 115px;
+    }
+
+    #me-pic {
+        height: 70%;
+    }
+
+    #name {
+        font-size: 3.2rem;
+        right: 2px;
+    }
+
+    #web {
+        font-size: 1rem;
+        top: 50%;
+    }
+
+    #bottom-cloud {
+        top: -20%;
+    }
+    #web-pic {
+        
+    }
+    #contact-me {
+    }
+}
+
+/**Iphone SE**/
+@media (min-width:370px) and (max-height:670px) {
+    #pc-desc {
+        margin-top: 4%;
+        font-size: .9rem;
+    }
+
+    #contact-me {
+        margin-top: 10%;
+    }
+}
+
+/**Iphone 12 Pro**/
+@media (min-width:380px) and (max-height:854px) {
+    #name {
+        right: 0px;
+    }
+}

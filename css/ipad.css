@@ -1,0 +1,56 @@
+
+    #web-header,
+    #pc-header {
+        font-size: 3rem;
+    }
+
+    #skill-section {
+        height: 65vh;
+    }
+
+    #web-pic {
+        height: 100%;
+        right: 0;
+    }
+
+    #web-header,
+    #web-desc {
+        margin-left: 10%;
+    }
+
+    #pc-pic {
+        height: 70%;
+        left: 8%;
+    }
+
+    #pc-header {
+        margin-bottom: 0%;
+        margin-left: 10%;
+    }
+
+    #pc-desc {
+        margin-top: 3%;
+    }
+    #contact-me {
+        margin-bottom: 5%;
+    }
+/**ipad mini**/
+@media (max-width:768px) {
+    #pc-pic {
+        height: 60%;
+        width: auto;
+        left: 5%;
+        float: left;
+    }
+
+    #pc-desc {}
+
+    #skill-section {
+        height: 60vh;
+    }
+    #contact-me {
+        margin-top: -12%;
+    }
+
+}
+   
